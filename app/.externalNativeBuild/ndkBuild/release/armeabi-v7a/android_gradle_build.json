@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Android.mk",
+    "/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "adpcm-release-armeabi-v7a": {
+      "buildCommand": "/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/lib /Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libadpcm.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "adpcm",
+      "files": [
+        {
+          "src": "/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/adpcmlib.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi9\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sysroot\" \"-isystem\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni/pcm_jni.c",
+          "flags": "\"-gcc-toolchain\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi9\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include\" \"-I/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sysroot\" \"-isystem\" \"/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "/Users/Prabhu/Desktop/Prabhu/Personal/VKSLABS/github/pcm-android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libadpcm.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/Prabhu/Desktop/Prabhu/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
